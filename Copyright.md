@@ -10,4 +10,3 @@ Any redistribution or reproduction of part or all of the contents in any form is
 
 You may not, except with our express written permission, distribute or commercially exploit the content. Nor may you transmit it or store it in any public repository or other form of electronic retrieval system.
 
-![image](https://github.com/ComITorg/ComIT_React_Winnipeg2023/assets/4603022/0ab61720-3530-4f92-929b-8cff214d7f53)
