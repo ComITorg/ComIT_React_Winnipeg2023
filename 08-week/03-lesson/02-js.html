@@ -1,0 +1,17 @@
+<div id="root"></div>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>	
+<script type="text/babel">
+const rootElement = document.getElementById('root');
+// Change to JSX
+// const element = React.createElement('div', {className: 'container', id: 'coolElement'}, 'Hello world', 'Hi');
+
+const props = {
+  className: 'container',
+  id: 'coolElement',
+  children: 'Hello world',
+}
+const element = <div {...props}>Hi</div>;
+ReactDOM.render(element, rootElement);
+</script>
