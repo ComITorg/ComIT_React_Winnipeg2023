@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Beginner's Guide to React</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@16.3.1/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.3.1/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+    <script type="text/babel">
+      function Message({ message }) {
+        return (
+          <div>
+            {message ? (
+              <div>{message}</div>
+            ) : (
+              <div>Whoops, no message found.</div>
+            )}
+          </div>
+        );
+      }
+
+      ReactDOM.render(
+        <div>
+          <Message message="Hey!" />
+          <Message message="There!" />
+        </div>,
+        document.getElementById('root'),
+      );
+    </script>
+  </body>
+</html>
